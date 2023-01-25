@@ -1,0 +1,56 @@
+.card-1 {
+  border-top: 5px solid #ff4f64;
+}
+
+.card-2 {
+  border-top: 5px solid #00a8e7;
+}
+
+.card-3 {
+  border-top: 5px solid #44c4a1;
+}
+
+.card-4 {
+  border-top: 5px solid #fcc200;
+}
+
+/* Write CSS code here. */
+@media screen and (max-width: 767px) {
+  .card {
+    width: 75vw;
+    padding: 2vw;
+    border-radius: 8px;
+    margin: 20px;
+    background-color: white;
+  }
+  .cardH {
+    font-size: 2vw;
+  }
+  .cardP {
+    font-size: 1vw;
+  }
+  .img1 {
+    width: 4vw;
+    align-items: end;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .card {
+    width: 35vw;
+    padding: 1vw;
+    border-radius: 15px;
+    margin: 20px;
+    background-color: white;
+  }
+  .cardH {
+    font-size: 1.5vw;
+  }
+  .cardP {
+    font-size: 1vw;
+  }
+  .img1 {
+    width: 4vw;
+    float: right;
+  }
+}
